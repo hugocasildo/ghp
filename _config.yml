@@ -3,3 +3,8 @@ plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
 title: "POC"
 description: "This is a POC for show the way to GitHub pages should config"
+markdown: kramdown
+source: ./docs
+destination: ./docs/_site
+baseurl: ""
+permalink: pretty
